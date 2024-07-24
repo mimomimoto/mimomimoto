@@ -2,6 +2,14 @@
 ![Anurag's GitHub stats](https://github-readme-stats-lake-phi-70.vercel.app/api?username=mimomimoto&show_icons=true&theme=tokyonight)
 
 ![Top Langs](https://github-readme-stats-lake-phi-70.vercel.app/api/top-langs/?username=mimomimoto&layout=compact&theme=tokyonight)
+
+name: Example
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.classic.svg
+  token: ${{ secrets.METRICS_TOKEN }}
+  base: header, repositories
+  plugin_lines: yes
 <!--
 **mimomimoto/mimomimoto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
